@@ -28,15 +28,15 @@
 
 football_prediction_dashboard/
 ├─ data/
-│ └─ запрос_ред_база.csv
+│    └─ запрос_ред_база.csv
 ├─ notebooks/
-│ └─ CL-Project-Team-2.-PREFINAL.ipynb
+│    └─ CL-Project-Team-2.-PREFINAL.ipynb
 ├─ sql/
-│ ├─ initial_join.sql
-│ └─ final_query.sql
+│    ├─ initial_join.sql
+│    └─ final_query.sql
 ├─ dashboard/
-│ ├─ tableau_dashboard.twb
-│ └─ image.jpg
+│    ├─ tableau_dashboard.twb
+│    └─ image.jpg
 ├─ README.md
 ├─ LICENSE
 ├─ .gitignore
