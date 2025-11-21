@@ -26,7 +26,7 @@
 
 ## Структура репозитория
 
-football_prediction_dashboard/
+```football_prediction_dashboard/
 ├─ data/
 │    └─ запрос_ред_база.csv
 ├─ notebooks/
@@ -41,6 +41,7 @@ football_prediction_dashboard/
 ├─ LICENSE
 ├─ .gitignore
 └─ requirements.txt
+```
 
 
 ## Ключевые метрики для прогноза
