@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Логи, временные и дампы
+*.log
+*.tmp
+*.dump
+*.bak
+*.swp
+
+# SQL-дампы/резервные копии
+*.sql~
+
+# Tableau
+*.twbx
+*.hyper
+!dashboard/football_prediction_dashboard.twbx
+
+# Data - игнорируем лишнее, но делаем исключение для нужных файлов
+data/*
+!data/source.md
+!data/bk_pred.csv
+!data/team_attr.csv
+!data/final_matrix_for_tableau.csv
+
+# Dashboard images (оставляем скриншот)
+dashboard/*
+!dashboard/image.jpg
+
+# Кэш и техническое
+.cache/
+*.egg-info/
+
