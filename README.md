@@ -28,10 +28,10 @@
 
 ```football_prediction_dashboard/
 ├─ data/
-└─ source.md
-└─ bk_pred.csv
-└─ team_attr.csv
-└─ final_matrix_for_tableau.csv
+│    └─source.md
+│    ├─ bk_pred.csv
+│    ├─ team_attr.csv
+│    └─ final_matrix_for_tableau.csv
 ├─ notebooks/
 │    └─ CL-Project-Team-2.-PREFINAL.ipynb
 ├─ sql/
