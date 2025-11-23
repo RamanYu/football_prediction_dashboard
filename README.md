@@ -28,12 +28,15 @@
 
 ```football_prediction_dashboard/
 ├─ data/
-│    └─ запрос_ред_база.csv
+└─ source.md
+└─ bk_pred.csv
+└─ team_attr.csv
+└─ final_matrix_for_tableau.csv
 ├─ notebooks/
 │    └─ CL-Project-Team-2.-PREFINAL.ipynb
 ├─ sql/
-│    ├─ initial_join.sql
-│    └─ final_query.sql
+│    ├─ bk_pred.sql
+│    └─ team_attr.sql
 ├─ dashboard/
 │    ├─ tableau_dashboard.twb
 │    └─ image.jpg
