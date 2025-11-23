@@ -1,5 +1,5 @@
 # football_prediction_dashboard
-# Аналитика футбольных матчей: Дашборд для прогнозирования исходов
+# Аналитика футбольных матчей: Дашборд для прогнозирования исходов футбольных матчей
 
 ## Описание
 
@@ -15,20 +15,24 @@
 
 1. **SQL**
     - Джойны и подготовка данных из исходных таблиц (матчи, команды, игроки, котировки).
-    - Получение итогового датасета: `data/запрос_ред_база.csv`.
+    - Итогового датасеты:
+        - `data/bk_pred.csv`,
+        - `data/team_attr.csv`.
 2. **Python/Jupyter Notebook**
     - Аналитика, выявление ключевых признаков и метрик.
     - Подготовка данных для визуализации.
-    - Основной ноутбук: `notebooks/CL-Project-Team-2.-PREFINAL.ipynb`.
+    - Основной ноутбук: `football_prediction_dashboard_FINAL.ipynb`.
 3. **Tableau**
     - Итоговая визуализация для пользователя.
-    - Скриншот: `dashboard/image.jpg`.
+    - [Ссылка на Tableau Public](https://public.tableau.com/app/profile/roman.yurenia/viz/football_prediction_dashboard/Dashboard1?publish=yes),
+    - Скриншот: `dashboard/image.jpg`,
+    - Основной файл: `football_prediction_dashboard.twbx`.
 
 ## Структура репозитория
 
 ```football_prediction_dashboard/
 ├─ data/
-│    └─source.md
+│    ├─source.md
 │    ├─ bk_pred.csv
 │    ├─ team_attr.csv
 │    └─ final_matrix_for_tableau.csv
@@ -38,7 +42,8 @@
 │    ├─ bk_pred.sql
 │    └─ team_attr.sql
 ├─ dashboard/
-│    ├─ tableau_dashboard.twb
+│    ├─ tableau_dashboard.twbx
+│    ├─ link_to_public_dashboard.md
 │    └─ image.jpg
 ├─ README.md
 ├─ LICENSE
@@ -72,6 +77,6 @@
 
 ## Автор
 
-- Имя, контакты, при необходимости
+- Юреня Роман, plowram@gmail.com
 
 
